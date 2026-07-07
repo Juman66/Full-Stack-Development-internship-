@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medium Clone</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+<header class="navbar">
+
+    <!-- Left Section -->
+    <div class="nav-left">
+
+        <i class="fa-solid fa-bars menu-icon"></i>
+
+        <h1 class="logo">Medium</h1>
+
+        <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="search" placeholder="Search" aria-label="Search">
+        </div>
+
+    </div>
+
+
+    <!-- Right Section -->
+    <div class="nav-right">
+
+        <button class="app-btn">
+            <i class="fa-solid fa-mobile-screen-button"></i>
+            Get app
+        </button>
+
+        <a href="#">
+            <i class="fa-regular fa-pen-to-square"></i>
+            Write
+        </a>
+
+        <a href="#">
+            <i class="fa-regular fa-bell"></i>
+        </a>
+
+        <img src="images/profile.jpg" alt="HackerNoon profile">
+
+    </div>
+
+</header>
+    <!-- Main Container -->
+    <div class="container">
+
+        <!-- Left Sidebar -->
+<aside class="left-sidebar">
+
+    <!-- Main Menu -->
+    <div class="sidebar-menu">
+
+        <a href="#" class="active">
+            <i class="fa-solid fa-house"></i>
+            <span>Home</span>
+        </a>
+
+        <a href="#">
+            <i class="fa-regular fa-bookmark"></i>
+            <span>Library</span>
+        </a>
+
+        <a href="#">
+            <i class="fa-regular fa-user"></i>
+            <span>Profile</span>
+        </a>
+
+        <a href="#">
+            <i class="fa-regular fa-file-lines"></i>
+            <span>Stories</span>
+        </a>
+
+        <a href="#">
+            <i class="fa-solid fa-chart-column"></i>
+            <span>Stats</span>
+        </a>
+
+    </div>
+
+    <hr>
+
+    <!-- Following Section -->
+    <div class="following">
+
+        <a href="#">
+            <i class="fa-regular fa-user"></i>
+            <span>Following</span>
+        </a>
+
+        <a href="#">
+            <i class="fa-solid fa-plus"></i>
+            <span>Find writers and publications to follow.</span>
+        </a>
+
+        <a href="#" class="suggestions">
+            See suggestions
+        </a>
+
+    </div>
+
+</aside>
+
+        <!-- Feed -->
+<main class="feed">
+
+    <!-- Feed Navigation -->
+    <nav class="feed-nav">
+
+        <a href="#" class="active">For you</a>
+
+        <a href="#">Featured</a>
+
+    </nav>
+
+    <!-- Articles Container -->
+<div class="articles">
+
+<article class="post">
+
+    <div class="post-content">
+
+        <div class="post-author">
+            <img src="images/profile.jpg" alt="HackerNoon profile">
+            <span>HackerNoon</span>
+            <span class="dot">•</span>
+            <span>4 min read</span>
+        </div>
+
+        <h2>Understanding CSS Grid Layout from Scratch</h2>
+
+        <p>
+            Learn how CSS Grid helps you create modern web layouts with rows,
+            columns and responsive designs using simple examples.
+        </p>
+
+        <div class="post-footer">
+
+            <div class="post-meta">
+                <span class="tag">Web Development</span>
+                <time datetime="2026-07-03">Jul 3</time>
+                <span>4 min read</span>
+            </div>
+
+            <div class="post-actions">
+                <i class="fa-regular fa-bookmark"></i>
+                <i class="fa-solid fa-ellipsis"></i>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="post-image">
+        <img src="images/article1.jpg" alt="Understanding CSS Grid article thumbnail">
+    </div>
+
+</article>
+<article class="post">
+
+    <div class="post-content">
+
+        <div class="post-author">
+            <img src="images/profile2.jpg" alt="JavaScript Weekly profile">
+            <span>JavaScript Weekly</span>
+            <span class="dot">•</span>
+            <span>6 min read</span>
+        </div>
+
+        <h2>10 CSS Tricks Every Frontend Developer Should Know</h2>
+
+        <p>
+            Discover modern CSS techniques that make your layouts cleaner,
+            faster and fully responsive across every screen size.
+        </p>
+
+        <div class="post-footer">
+
+            <div class="post-meta">
+                <span class="tag">CSS</span>
+                <time datetime="2026-07-02">Jul 2</time>
+                <span>6 min read</span>
+            </div>
+
+            <div class="post-actions">
+                <i class="fa-regular fa-bookmark"></i>
+                <i class="fa-solid fa-ellipsis"></i>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="post-image">
+        <img src="images/article2.jpg" alt="10 CSS Tricks Every Frontend Developer Should Know article thumbnail">
+    </div>
+
+</article>
+<article class="post">
+
+    <div class="post-content">
+
+        <div class="post-author">
+            <img src="images/profile3.jpg" alt="CSS Tricks profile">
+            <span>CSS Tricks</span>
+            <span class="dot">•</span>
+            <span>5 min read</span>
+        </div>
+
+        <h2>Building Responsive Layouts Using Flexbox</h2>
+
+        <p>
+            Master Flexbox by creating navigation bars, cards, dashboards,
+            galleries and responsive layouts with practical examples.
+        </p>
+
+        <div class="post-footer">
+
+            <div class="post-meta">
+                <span class="tag">Flexbox</span>
+                <time datetime="2026-07-01">Jul 1</time>
+                <span>5 min read</span>
+            </div>
+
+            <div class="post-actions">
+                <i class="fa-regular fa-bookmark"></i>
+                <i class="fa-solid fa-ellipsis"></i>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="post-image">
+        <img src="images/article3.jpg" alt="Building Responsive Layouts Using Flexbox article thumbnail">
+    </div>
+
+</article>
+<article class="post">
+
+    <div class="post-content">
+
+        <div class="post-author">
+            <img src="images/profile4.jpg" alt="Frontend Mentor profile">
+            <span>Frontend Mentor</span>
+            <span class="dot">•</span>
+            <span>7 min read</span>
+        </div>
+
+        <h2>Design Better User Interfaces With Simple CSS Techniques</h2>
+
+        <p>
+            Improve your websites by learning spacing, typography, colors,
+            cards and layouts that create a professional user experience.
+        </p>
+
+        <div class="post-footer">
+
+            <div class="post-meta">
+                <span class="tag">UI Design</span>
+                <time datetime="2026-06-30">Jun 30</time>
+                <span>7 min read</span>
+            </div>
+
+            <div class="post-actions">
+                <i class="fa-regular fa-bookmark"></i>
+                <i class="fa-solid fa-ellipsis"></i>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="post-image">
+        <img src="images/article4.jpg" alt="Design Better User Interfaces With Simple CSS Techniques article thumbnail">
+    </div>
+
+</article>
+
+
+</div>
+
+</main>
+
+        <!-- Right Sidebar -->
+<aside class="right-sidebar">
+
+    <!-- Staff Picks -->
+    <section class="staff-picks">
+
+        <h3>Staff Picks</h3>
+
+        <div class="staff-item">
+
+            <p class="staff-author">
+                T in Tastyble by Verde Curated Lifestyle
+            </p>
+
+            <h4>
+                How To Save A Summer: What I Dried All Summer Long
+            </h4>
+
+            <time datetime="2026-06-30">3d ago</time>
+
+        </div>
+
+        <div class="staff-item">
+
+            <p class="staff-author">
+                John Gorman
+            </p>
+
+            <h4>
+                Participation Is Reality
+            </h4>
+
+            <time datetime="2026-06-19">Jun 19</time>
+
+        </div>
+
+        <div class="staff-item">
+
+            <p class="staff-author">
+                Mark Andrews
+            </p>
+
+            <h4>
+                The Beautiful Accident
+            </h4>
+
+            <time datetime="2026-06-17">Jun 17</time>
+
+        </div>
+
+        <a href="#" class="see-list">
+            See the full list
+        </a>
+
+    </section>
+
+    <!-- Recommended Topics -->
+
+    <section class="topics">
+
+        <h3>Recommended topics</h3>
+
+        <div class="topic-list">
+
+            <span>Self Improvement</span>
+
+            <span>Machine Learning</span>
+
+            <span>Writing</span>
+
+            <span>Relationships</span>
+
+            <span>Cryptocurrency</span>
+
+            <span>Politics</span>
+
+            <span>Productivity</span>
+
+        </div>
+
+        <a href="#" class="see-topics">
+            See more topics
+        </a>
+
+    </section>
+
+    <!-- Who to Follow -->
+
+    <section class="follow-section">
+
+        <h3>Who to follow</h3>
+
+        <div class="follow-user">
+
+            <img src="images/profile5.jpg" alt="Who to follow profile">
+
+            <div>
+
+                <h4>Sumit Pandey</h4>
+
+                <p>PhD in Machine Learning</p>
+
+            </div>
+
+            <button>Follow</button>
+
+        </div>
+
+    </section>
+    <footer class="sidebar-footer">
+
+    <a href="#">Help</a>
+
+    <a href="#">Status</a>
+
+    <a href="#">About</a>
+
+    <a href="#">Careers</a>
+
+    <a href="#">Press</a>
+
+    <a href="#">Blog</a>
+
+    <a href="#">Privacy</a>
+
+    <a href="#">Rules</a>
+
+    <a href="#">Terms</a>
+
+    <a href="#">Text to speech</a>
+
+</footer>
+
+</aside>
+
+    </div>
+
+</body>
+
+</html>
